@@ -1,6 +1,7 @@
 <Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="onNavigatingTo" class="page">
+  <ActionBar title="Monospace"/>
   <ScrollView>
-    <GridLayout columns="* *" rows="auto *">
+    <GridLayout columns="* *">
         <StackLayout>
           <Label text="sample" style="font-family: monospace;"/>  
           <Label style="font-family: monospace; font-weight: 100;"      text="sample - 100" />  

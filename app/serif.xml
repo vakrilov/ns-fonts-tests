@@ -1,6 +1,7 @@
 <Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="onNavigatingTo" class="page">
+  <ActionBar title="Serif"/>
   <ScrollView>
-    <GridLayout columns="* *" rows="auto *">
+    <GridLayout columns="* *">
         <StackLayout>
           <Label text="sample" style="font-family: serif;"/>  
           <Label style="font-family: serif; font-weight: 100;"      text="sample - 100" />  
