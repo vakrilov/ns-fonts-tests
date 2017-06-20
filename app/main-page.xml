@@ -8,5 +8,9 @@
     <Button text="monospace" tap="navigate" />
     <Button text="courier-new" tap="navigate" />
     <Button text="helvetica" tap="navigate" />
+
+    <Button text="custom-fontawesome" tap="navigate" />
+    <Button text="custom-muli" tap="navigate" />
+    <Button text="custom-sofia" tap="navigate" />
   </StackLayout>
 </Page>
