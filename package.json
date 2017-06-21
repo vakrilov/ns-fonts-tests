@@ -6,15 +6,15 @@
   "nativescript": {
     "id": "org.nativescript.nsfontstests",
     "tns-ios": {
-      "version": "3.0.1"
+      "version": "2.5.0"
     },
     "tns-android": {
-      "version": "3.0.1"
+      "version": "2.5.0"
     }
   },
   "dependencies": {
-    "tns-core-modules": "*",
-    "tns-core-modules-widgets": "next"
+    "tns-core-modules": "^2.5.0",
+    "tns-core-modules-widgets": "^2.5.0"
   },
   "devDependencies": {
     "babel-traverse": "6.25.0",
