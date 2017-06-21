@@ -12,5 +12,8 @@
     <Button text="custom-fontawesome" tap="navigate" />
     <Button text="custom-muli" tap="navigate" />
     <Button text="custom-sofia" tap="navigate" />
+
+    <Button text="font-fallback" tap="navigate" />
+    
   </StackLayout>
 </Page>
