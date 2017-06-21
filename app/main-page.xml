@@ -1,19 +1,22 @@
 
 <Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="onNavigatingTo" class="page">
-  <StackLayout>
-    <Button text="no-family" tap="navigate" />
-    <Button text="system" tap="navigate" />
-    <Button text="sans-serif" tap="navigate" />
-    <Button text="serif" tap="navigate" />
-    <Button text="monospace" tap="navigate" />
-    <Button text="courier-new" tap="navigate" />
-    <Button text="helvetica" tap="navigate" />
+  <ScrollView>
+    <StackLayout>
+      <Button text="no-family" tap="navigate" />
 
-    <Button text="custom-fontawesome" tap="navigate" />
-    <Button text="custom-muli" tap="navigate" />
-    <Button text="custom-sofia" tap="navigate" />
+      <Button text="system" tap="navigate" />
+      <Button text="sans-serif" tap="navigate" />
+      <Button text="serif" tap="navigate" />
+      <Button text="monospace" tap="navigate" />
+      
+      <Button text="courier-new" tap="navigate" />
+      <Button text="helvetica" tap="navigate" />
 
-    <Button text="font-fallback" tap="navigate" />
-    
-  </StackLayout>
+      <Button text="custom-fontawesome" tap="navigate" />
+      <Button text="custom-muli" tap="navigate" />
+      <Button text="custom-sofia" tap="navigate" />
+
+      <Button text="font-fallback" tap="navigate" />
+    </StackLayout>
+  </ScrollView>
 </Page>
